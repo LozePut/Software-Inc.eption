@@ -1,0 +1,11 @@
+-start(base)
+-base(base)
+Software Inception
+Game Dev
+Game Tycoon
+Software Tycoon
+Software Maker
+Game Maker
+Software Dev
+Software Inc
+Game Inc

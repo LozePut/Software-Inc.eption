@@ -1,0 +1,1403 @@
+<SoftwareType>
+	<Name>Software Inc.eption</Name>
+	<Description>This softwaretype is a type on the game that you are currently playing!.</Description>
+		<Categories>
+		<Category Name="Default">
+			<Description></Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+		</Category>
+	</Categories>
+	<Random>0.5</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<Category>Default</Category>
+	<NameGenerator>Software Inc.Gen</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basics</Name>
+			<Category>System</Category>
+			<Description>Just make software, but you are lonely, No AI's, No employees. Only you and your PC.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Demo</Name>
+			<Category>System</Category>
+			<Description>People can take a look before they buying the game</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.2</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Basic Employees</Name>
+			<Category>System</Category>
+			<Description>Hire employees to design, develop, support, research and market software in teams, from now, you are not so lonely :)</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.25</Innovation>
+			<Usability>0.25</Usability>
+			<Stability>0.25</Stability>
+			<CodeArt>0.2</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Advanced Employees</Name>
+			<Category>System</Category>
+			<Description>Employees have can have needs, toughts, roles and much more</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.25</Innovation>
+			<Usability>0.25</Usability>
+			<Stability>0.25</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Software Inc.eption">Basic Employees</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Teams</Name>
+			<Category>System</Category>
+			<Description>All employees are in a team</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced Employees</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Needs</Name>
+			<Category>System</Category>
+			<Description>Employees needs food, social and energy</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced Employees</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Thoughts</Name>
+			<Category>System</Category>
+			<Description>What employees are thinking</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced Employees</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Roles</Name>
+			<Category>System</Category>
+			<Description>Employees can have roles, based on her skills</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.2</Innovation>
+			<Usability>0.2</Usability>
+			<Stability>0.2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Skills</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Lead</Name>
+			<Category>System</Category>
+			<Description>[Role] A team needs a good leader</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Roles</Dependency>
+			<Dependency Software="Software Inc.eption">Teams</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Programmer</Name>
+			<Category>System</Category>
+			<Description>[Role] Writing code...</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Roles</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Designer</Name>
+			<Category>System</Category>
+			<Description>[Role] Design software</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Roles</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Artist</Name>
+			<Category>System</Category>
+			<Description>[Role] Make the software looks better</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Roles</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Marketer</Name>
+			<Category>System</Category>
+			<Description>[Role] Employee that will make software more popular</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Roles</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Skills</Name>
+			<Category>System</Category>
+			<Description>Some employeers are better than others</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced Employees</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Traits</Name>
+			<Category>System</Category>
+			<Description>All employees have her own Traits</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced Employees</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Hard worker</Name>
+			<Category>System</Category>
+			<Description>[Trait] Always give 110%</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Traits</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Fast learner</Name>
+			<Category>System</Category>
+			<Description>[Trait] Pickup skills faster</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Traits</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Independent</Name>
+			<Category>System</Category>
+			<Description>[Trait] A employee can work happily by themself</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Traits</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Social</Name>
+			<Category>System</Category>
+			<Description>[Trait] A good leader needs to be social</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Traits</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Lazy</Name>
+			<Category>System</Category>
+			<Description>[Trait] A lazy employee will try to get out of work</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Traits</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Stressed</Name>
+			<Category>System</Category>
+			<Description>[Trait] A stressed employee can quickly feel overworked</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Traits</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Website</Name>
+			<Category>System</Category>
+			<Description>Get more population by making a website</Description>
+			<DevTime>1.5</DevTime>
+			<Innovation>0.2</Innovation>
+			<Usability>0.2</Usability>
+			<Stability>0.25</Stability>
+			<CodeArt>0.3</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Forum</Name>
+			<Category>System</Category>
+			<Description>For all bug reports and discussions</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.3</Usability>
+			<Stability>0.25</Stability>
+			<CodeArt>0.3</CodeArt>
+			<Dependency Software="Software Inc.eption">Website</Dependency>
+		</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Furniture</Name>
+				<Category>Furniture</Category>
+				<Description>The basics of all furnitures</Description>
+				<DevTime>1</DevTime>
+				<Innovation>0.2</Innovation>
+				<Usability>0.2</Usability>
+				<Stability>0.2</Stability>
+				<CodeArt>0.2</CodeArt>
+				<Dependency Software="2D Editor">Image rendering</Dependency>
+			</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Elevator</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Place elevators on top of eachother to connect rooms on different floors</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Stairs</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture]</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Table</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Put stuff on it and chairs around it</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Glass Table</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Enjoy the view of your feet while you work</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>2m End Table</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Approximately round</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>3m End Table</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Even more round</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Cheap Chair</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Uncomfortable plastic chair</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Office Chair</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Nice polstered chair, no wheels though</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Waiting Chairs</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Couch</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Living Room Inc.eption</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Bench</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] It's a bench</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Small Heater</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Humble heating unit for your basic office needs</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Ceiling Fan</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Nifty ceiling fan, which not only looks cool, but also cools down the room! May cause noise pollution.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Radiator</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Runs on expensive district heating, but is a lot more effective than a small heater.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Ventilation</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Small ventilation unit that takes air directly from the other side of a wall.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Central Heating</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Industrial strength central heating unit to heat up entire buildings. Optimal heating for 375 m^2.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>AC Unit</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Industrial strength air conditioning unit to cool down entire building complexes. Has to be placed above ground.  Optimal cooling for 375 m^2.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Industrial ventilation</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] This fan was designed to cool a room down to accomodate servers, i.e. not people</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Old Computer</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] More pixels than you can count on one hand!</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>90s Computer</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Laptop</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture]</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Modern Computer</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Modern computer for all your modern computer needs</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>HoloComputer</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Welcome to the future! Where everything is a little less convenient</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Cubicle wall</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Place these walls intelligenty to reduce noise around work spaces. Note that cubicle walls increase employee isolation.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Lamp</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Make sure your employees can see when they are working late or if you can't be bothered placing windows</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Wall Lamp</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Desk Lamp</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] For localized lighting improvements</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Floor Lamp</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Makes light, but is also in the way</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Fluorescent lamp</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Perfect for lighting up shady basement rooms with little maintenance, not so great for anything else, though</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Outdoor Lamp</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Cozy lamp for all your avoid-tripping-in-the-dark-outside-at-night needs!</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Vending Machine</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Food generator</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Fridge</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Generates food for cooks to cook</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Stove</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Cooks will use stoves to heat food. One stove per cook.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Serving Tray</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Cooks will fill serving trays with finished food so employees can eat it</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Instant Coffee</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] You soak some brown powder in hot water and I guess you feel less tired at some point?</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Coffee</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Your standard ground coffee machine</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Espresso Machine</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Delivers high quality coffee by being noisy and consuming large amounts of water, electricity and maintenance</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Toilet</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Poop machine</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Watercooler</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] A place for employees to socialize</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Painting</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] A corny painting to liven up the office</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>TV</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Bookshelf</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Complete with books!</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Reception desk</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Floor Plant</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] A charming floor plant</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Table Plant</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Low-poly bonsai tree</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Table Cactus</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Big Plant</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Takes up a lot of space, but employees agree that it makes up for it by looking nice</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Small tree</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Place it at odd angles to make it look more varied. Seriously.</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Small pine tree</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Clock</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Time machine!(Not an actual time machine)</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Small Server</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] A normal computer, but with more internet</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Medium Server</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Like a small server, but more medium</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Tower Server</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] A high performance tower(Not an actual tower)</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Server Rack</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] If one computer is not enough</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Phone</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Who you gonna call? Support!</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Drawing Tablet</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] So much easier than manually inputting pixel coordinates</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Calculator</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Calculators are a programmer's best friend</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Inbox</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Help keep your employees organized, especially helpful for people who haven't heard of e-mail</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Standard door</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] It's a door...</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Sliding glass door</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Door that doubles as a window</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Double doors</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] More doors per door purchase</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Double glass door</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Small window</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] Completely useless if placed between rooms</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Large window</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] If you want even more window</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Wide window</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] For the widescreen experience</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Arched gate</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture]</Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Open gate</Name>
+			<Category>Furniture</Category>
+			<Description>[Furniture] </Description>
+			<DevTime>0.01</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0.01</Usability>
+			<Stability>0.01</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Furniture</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Auto Furnish System</Name>
+			<Category>Building</Category>
+			<Description>When you buy something the game will automaticly place that in the office</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+
+		<Feature From="Auto Furnish System">
+			<Name>Build System</Name>
+			<Category>Building</Category>
+			<Description>Let users build offices by themself</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Construct items</Name>
+			<Category>Building</Category>
+			<Description>You can build your own office!</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependency Software="Software Inc.eption">Build System</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Rectangle wall</Name>
+			<Category>Building</Category>
+			<Description>Build a square office</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Construct items</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Wall</Name>
+			<Category>Building</Category>
+			<Description>Build walls in every angle</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.2</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Software Inc.eption">Construct items</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Rectangle fence</Name>
+			<Category>Building</Category>
+			<Description>Build a square fence</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Construct items</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Fence</Name>
+			<Category>Building</Category>
+			<Description>Build fences in every angle</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.2</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Software Inc.eption">Construct items</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Grid sizer</Name>
+			<Category>Building</Category>
+			<Description>Place stuff every where you want.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0.2</Innovation>
+			<Usability>0.2</Usability>
+			<Stability>0.2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Software Inc.eption">Build System</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>4 Snapping angles</Name>
+			<Category>Building</Category>
+			<Description>Place stuff in 4 angles.</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.01</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Build System</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>8 Snapping angles</Name>
+			<Category>Building</Category>
+			<Description>Place stuff in 8 angles.</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">4 Snapping angles</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>16 Snapping angles</Name>
+			<Category>Building</Category>
+			<Description>Place stuff in 16 angles.</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">8 Snapping angles</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Roads</Name>
+			<Category>Building</Category>
+			<Description>Make roads where cars can ride</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Build System</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Cars</Name>
+			<Category>System</Category>
+			<Description>Employees can drive a car for if the busses are filled up</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Software Inc.eption">Roads</Dependency>
+  		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Bus</Name>
+			<Category>System</Category>
+			<Description>Every hour a bus bring some employees</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Software Inc.eption">Roads</Dependency>
+  		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Bus stop</Name>
+			<Category>System</Category>
+			<Description>Here is stops the busses every hour</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Unlock>1990</Unlock>
+			<Dependency Software="Software Inc.eption">Roads</Dependency>
+	  	</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Parking lot</Name>
+				<Category>System</Category>
+				<Description>Make parking lot where cars or bikes from staff and employees can park</Description>
+				<DevTime>0.3</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.01</CodeArt>
+				<Dependency Software="Software Inc.eption">Roads</Dependency>
+	 		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Bikes</Name>
+			<Category>System</Category>
+			<Description>A more healthy way to get to work</Description>
+			<DevTime>0.5</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Research>1980</Research>
+			<Dependency Software="Software Inc.eption">Roads</Dependency>
+		</Feature>
+
+			<Feature Forced="FALSE">
+				<Name>Mod support</Name>
+				<Category>System</Category>
+				<Description>Players can make mods for your software</Description>
+				<DevTime>0.2</DevTime>
+				<Innovation>0.1</Innovation>
+				<Usability>0.1</Usability>
+				<Stability>0.1</Stability>
+				<CodeArt>0.01</CodeArt>
+	 		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Advanced mod support</Name>
+			<Category>System</Category>
+			<Description>Players can make better and more in depth mods</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.01</CodeArt>
+			<Dependency Software="Software Inc.eption">Mod support</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Furniture mod support</Name>
+			<Category>System</Category>
+			<Description>Players can make own furnitures by themselves</Description>
+			<DevTime>0.1</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced mod support</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>.NET Support</Name>
+			<Category>System</Category>
+			<Description>Mods are even more in depth</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced mod support</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Mod tools</Name>
+			<Category>System</Category>
+			<Description>People can make mods without coding with some simple tools</Description>
+			<DevTime>0.3</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.5</Usability>
+			<Stability>0.1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced mod support</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Workshop Support</Name>
+			<Category>System</Category>
+			<Description>Players are able to release his software on the workshop</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<Server>0.001</Server>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Advanced mod support</Dependency>
+		</Feature>
+
+		<Feature Forced="FALSE">
+			<Name>Workshop Auto-update</Name>
+			<Category>System</Category>
+			<Description>All mods can be updated automaticly</Description>
+			<DevTime>0.2</DevTime>
+			<Innovation>0.1</Innovation>
+			<Usability>0.1</Usability>
+			<Stability>0.1</Stability>
+			<Server>0.001</Server>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Software Inc.eption">Workshop Support</Dependency>
+		</Feature>
+
+
+	</Features>
+</SoftwareType>

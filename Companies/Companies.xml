@@ -1,0 +1,34 @@
+<Company>
+	<Name>Company</Name>
+	<Money>10000000</Money>
+	<Fans>50000</Fans>
+	<BusinessReputation>50</BusinessReputation>
+	<Founded>2-1975</Founded>
+	<Products>
+		<Product>
+			<Name>Lion OS</Name>
+			<CodeProgress>1</CodeProgress>
+			<ArtProgress>1</ArtProgress>
+			<CodeQuality>1</CodeQuality>
+			<ArtQuality>1</ArtQuality>
+			<Price>150</Price>
+			<Release>1-1980</Release>
+			<Type>Operating System</Type>
+			<Category>Computer</Category>
+			<Features>
+				<Feature>GUI</Feature>
+				<Feature>QA</Feature>
+			</Features>
+			<Quality>0.5</Quality>
+			<OpenSource>TRUE</OpenSource>
+			<InHouse>FALSE</InHouse>
+			<Reception>1</Reception>
+			<Popularity>1</Popularity>
+			<SequelTo></SequelTo>
+			<OS>
+			</OS>
+			<Needs>
+			</Needs>
+		</Product>
+	</Products>
+</Company>
